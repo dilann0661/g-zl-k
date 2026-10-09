@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0a0a0a">
+
+<title>🕶️ Gözlük Operasyonu</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 25px 14px;
+    background: #090909;
+    color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 680px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    padding: 28px 12px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 25px;
+}
+
+.badge {
+    display: inline-block;
+    color: #ff4545;
+    border: 1px solid #ff4545;
+    border-radius: 5px;
+    padding: 7px 12px;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: clamp(28px, 7vw, 43px);
+    color: #ff3636;
+    margin: 18px 0 10px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #999;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.card {
+    background: #141414;
+    border: 1px solid #303030;
+    border-radius: 15px;
+    padding: 19px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 25px #000;
+}
+
+.card h2 {
+    font-size: 19px;
+    margin: 0 0 17px;
+}
+
+.red {
+    color: #ff4545;
+}
+
+.blue {
+    color: #61b8ff;
+}
+
+.photo {
+    width: 100%;
+    max-height: 440px;
+    object-fit: contain;
+    background: #080808;
+    border-radius: 10px;
+    display: block;
+}
+
+.label {
+    margin-top: 16px;
+    font-size: 11px;
+    color: #888;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.name {
+    font-size: 26px;
+    font-weight: 800;
+    margin-top: 7px;
+    overflow-wrap: anywhere;
+}
+
+.stamp {
+    border: 2px dashed #ff4545;
+    color: #ff4545;
+    padding: 13px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    transform: rotate(-1deg);
+    margin: 25px 5px;
+}
+
+.report {
+    background: #1c1010;
+    border-left: 4px solid #ff4545;
+    border-radius: 8px;
+    padding: 17px;
+    color: #ddd;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.report strong {
+    color: #ff5555;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.small {
+    color: #555;
+    font-size: 11px;
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    .card {
+        padding: 14px;
+    }
+
+    .name {
+        font-size: 23px;
+    }
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+    <header class="header">
+        <div class="badge">GİZLİ DOSYA • NO: 007</div>
+
+        <h1>🕶️ Gözlük Operasyonu</h1>
+
+        <div class="subtitle">
+            Bir gözlük. Bir sahip. Cevap bekleyen sorular.<br>
+            Dosya, yetkili olmayan kişilerin kahkahasına açıktır.
+        </div>
+    </header>
+
+    <section class="card">
+        <h2 class="red">01 / OLAYA KONU OLAN EŞYA</h2>
+
+        <img
+            class="photo"
+            src="gozluk.jpg"
+            alt="Operasyona konu olan gözlük"
+        >
+
+        <div class="label">Eşyanın kayıtlı sahibi</div>
+        <div class="name blue">Hiranur</div>
+
+        <p class="subtitle">
+            Söz konusu gözlük hakkında incelemeler
+            mizah amaçlı devam etmektedir.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2 class="red">02 / DOSYADAKİ ŞAHIS</h2>
+
+        <img
+            class="photo"
+            src="sahis.jpg"
+            alt="Dosyadaki kişinin fotoğrafı"
+        >
+
+        <div class="label">Dosyadaki kişi</div>
+        <div class="name red">KİMLİK TESPİTİ BEKLİYOR</div>
+
+        <p class="subtitle">
+            Dedektifler henüz çay molasından dönmedi.
+        </p>
+    </section>
+
+    <div class="stamp">
+        🚨 GÖZLÜK KRİZ MASASI TOPLANDI 🚨
+    </div>
+
+    <section class="card">
+        <h2 class="red">03 / RESMÎ (!) RAPOR</h2>
+
+        <div class="report">
+            <strong>SUÇLAMA:</strong> Gözlük vakasıyla ilgili
+            açıklığa kavuşturulması gereken meseleler.<br>
+
+            <strong>ŞÜPHELİ DURUM:</strong> Gözlüğün nerede
+            olduğu ve nasıl el değiştirdiği merak konusu.<br>
+
+            <strong>MAĞDUR:</strong> Hiranur'un gözlüğü.<br>
+
+            <strong>KARAR:</strong> Mahkeme heyeti teneffüse
+            çıkmıştır. Duruşma belirsiz bir tarihe ertelenmiştir.
+        </div>
+    </section>
+
+    <div class="card" style="text-align:center">
+        <div style="font-size:42px">🕶️</div>
+        <h2>Dosya henüz kapanmadı!</h2>
+        <p class="subtitle">
+            Gözlük bulunduğunda tüm dünya rahat bir nefes alacak.
+            En azından sınıf.
+        </p>
+    </div>
+
+    <footer class="footer">
+        NASTOXREAL • GÖZLÜK OPERASYONU<br>
+        <span class="small">
+            Arkadaşlar arası mizah projesidir.
+            Gerçek bir suç duyurusu veya resmî soruşturma değildir.
+        </span>
+    </footer>
+
+</div>
+</body>
+</html>
